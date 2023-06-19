@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(28, 28, 28, 0.705);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0;
+}
+
+#logosite {
+    width: 150px;
+    height: 150px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto {
+    margin-left: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    font-family: 'Marcellus', serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu li a:hover {
+    background-color: rgba(95, 95, 95, 0.377);
+}
+
+.background {
+    background-image: url(/img/timothy-dykes-7-vPKU5Kqqs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.contato1 {
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+.contato1 h1 {
+    color: lightgray;
+    font-size: 40pt;
+    font-family: 'Marcellus', serif;
+}
+
+.contatoform {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    color: lightgray;
+    font-size: 20pt;
+    font-family: 'Gudea', sans-serif;
+}
+
+.contatoform form input#nome {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14pt;
+    color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 5px 20px;
+    background-color: rgb(28, 28, 28);
+}
+
+.contatoform form input#email {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14pt;
+    color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 5px 20px;
+    background-color: rgb(28, 28, 28);
+}
+.contatoform form input#telefone {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14pt;
+    color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 5px 20px;
+    background-color: rgb(28, 28, 28);
+}
+.contatoform form textarea {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    font-size: 14pt;
+    color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 5px 20px;
+    background-color: rgb(28, 28, 28);
+}
+.contatoform form input#enviar {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14pt;
+    color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 5px 20px;
+    background-color: rgb(28, 28, 28);
+}
+.contatoform form input#limpar {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14pt;
+    color: darkgoldenrod;
+    padding: 10px;
+    border-radius: 5px 20px;
+    background-color: rgb(28, 28, 28);
+}
+footer{
+    border: 1px solid black;
+    background-color: rgb(28, 28, 28);
+    color: lightgray;
+    width: 100%;
+    height: 70px;
+}
+footer p{
+    font-size: 20pt;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    font-family: 'Gudea', sans-serif;
+}

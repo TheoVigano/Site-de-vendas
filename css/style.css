@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgba(28, 28, 28, 0.705);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Marcellus', serif;
+    align-items: center;
+    padding: 0px 0;
+}
+#logosite{
+    width: 150px;
+    height: 150px;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu li a{
+        font-size: 25px;
+        text-decoration: none;
+        color: darkgoldenrod;
+        text-transform: uppercase;;
+        padding: 10px;
+        border-radius: 10px;
+}
+.menu li a:hover{
+    background-color: rgba(95, 95, 95, 0.377);
+}
+.background{
+    background-image: url(/img/galxrax-rax-oGAf4jsC0Fw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.titleA{
+    margin-left: 8rem;
+    margin-top: 15rem;
+}
+.titleA h1{
+    color: lightgray;
+    font-size: 40pt;
+    font-family: 'Marcellus', serif;
+}
+.titleA p{
+    color: silver;
+    font-size: 20pt;
+    font-family: 'Gudea', sans-serif;
+}
+footer{
+    border: 1px solid black;
+    background-color: rgb(28, 28, 28);
+    color: lightgray;
+    width: 100%;
+    height: 70px;
+}
+footer p{
+    font-size: 20pt;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    font-family: 'Gudea', sans-serif;
+}

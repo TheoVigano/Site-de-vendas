@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgba(28, 28, 28, 0.705);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0;
+    font-family: 'Marcellus', serif;
+}
+#logosite{
+    width: 150px;
+    height: 150px;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    margin-left: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu li a{
+        font-size: 25px;
+        text-decoration: none;
+        color: darkgoldenrod;
+        text-transform: uppercase;;
+        padding: 10px;
+        border-radius: 10px;
+}
+.menu li a:hover{
+    background-color: rgba(95, 95, 95, 0.377);
+}
+.background{
+    background-image: url(/img/erica-li-UCGvgdlbYGk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+.sobre1{
+    margin-left: 45rem;
+    margin-top: 15rem;
+    text-align: right;
+    margin-right: 20px;
+}
+.sobre2 h1{
+    color: darkgoldenrod;
+    font-family: 'Marcellus', serif;
+    font-size: 40pt;
+}
+.sobre1 p{
+    color: darkgoldenrod;
+    font-size: 20pt;
+    font-family: 'Gudea', sans-serif;
+}
+.mapBox{
+    position: relative;
+    bottom:300px;
+    left: 100px;
+    width: 600px;
+    height: 350px;
+    background: black;
+    border: solid lightgray;
+}
+.mapBox iframe{
+    
+    
+    width: 100%;
+    height: 100%;
+}
+footer{
+    border: 1px solid black;
+    background-color: rgb(28, 28, 28);
+    color: lightgray;
+    width: 100%;
+    height: 70px;
+}
+footer p{
+    font-size: 20pt;
+    position: relative;
+    text-align: center;
+    font-family: 'Gudea', sans-serif;
+    top: 25px;
+}
